@@ -13,8 +13,6 @@ with open('i2.json', 'r') as file:
 
 bosses = data['Bosses']
 
-def verify():
-    return "VERIFY-CODE-"+"".join(random.choices('abcdefghijklmnopqrstuvwxyz', k=10))
 def clear():
     print("\033[H\033[J", end="")  # Clear screen
 
