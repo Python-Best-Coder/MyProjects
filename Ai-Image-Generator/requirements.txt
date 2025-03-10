@@ -1,1 +1,1 @@
-pip install selenium Pillow base64 requests io
+pip install selenium pillow base64 requests io
