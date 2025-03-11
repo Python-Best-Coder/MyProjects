@@ -21,7 +21,7 @@ def set_up(prompt):
 
     cookie = {
         'name': '_U',
-        'value': 'your_cookie_here'
+        'value': 'your_cookie_here' # This cookie works for some reason! So don't edit it.
     }
     driver.add_cookie(cookie)
     driver.refresh()
